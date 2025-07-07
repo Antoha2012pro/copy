@@ -11,7 +11,7 @@
     }
 
     &__item {
-        border-radius: 14px;
+        border-radius: 20px;
         transition: transform 0.3s ease,
         box-shadow 0.3s ease;
 
@@ -23,16 +23,22 @@
     }
 
     &__link {
-        padding: 16px 0px;
-        border-radius: 14px;
+        padding: 20px 0px;
+        border-radius: 20px;
         text-align: center;
         display: block;
         width: 100%;
         background-color: $white-link-color;
         color: $link-color;
         font-weight: 550;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 19px;
         letter-spacing: .02px;
+        transition: 0.3s ease;
+
+        &:hover {
+            background-color: $black-color;
+            opacity: 0.7;
+        }
     }
 }
