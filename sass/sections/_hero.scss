@@ -1,0 +1,26 @@
+.hero {
+    padding: 8px 0px;
+
+    .container {}
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0px 16px;
+    }
+
+    &__link {
+        padding: 16px 0px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        border-radius: 14px;
+        background-color: $white-link-color;
+        color: $link-color;
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: .02px;
+    }
+}

@@ -1,0 +1,22 @@
+.footer {
+    padding: 8px 0px;
+
+    .container {
+
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 0px 16px;
+    }
+
+    &__img {
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin: 0px auto;
+        fill: $white-color;
+    }
+}
