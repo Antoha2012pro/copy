@@ -10,12 +10,24 @@
         margin: 0px 16px;
     }
 
+    &__item {
+        border-radius: 14px;
+        transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+            /* Тінь знизу для ефекту підняття */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+    }
+
     &__link {
         padding: 16px 0px;
+        border-radius: 14px;
         text-align: center;
         display: block;
         width: 100%;
-        border-radius: 14px;
         background-color: $white-link-color;
         color: $link-color;
         font-weight: 550;

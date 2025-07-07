@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   margin: 0;
   padding: 0;
@@ -88,12 +89,21 @@ body {
   gap: 16px;
   margin: 0px 16px;
 }
+.hero__item {
+  border-radius: 14px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero__item:hover {
+  transform: translateY(-2px);
+  /* Тінь знизу для ефекту підняття */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
 .hero__link {
   padding: 16px 0px;
+  border-radius: 14px;
   text-align: center;
   display: block;
   width: 100%;
-  border-radius: 14px;
   background-color: rgb(255, 255, 255);
   color: rgb(51, 51, 51);
   font-weight: 550;
